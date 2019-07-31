@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <corners
+        android:radius="30dp"
+        />
+    <gradient
+        android:angle="45"
+        android:centerX="35%"
+        android:centerColor="#ffce3f34"
+        android:startColor="#ffce3f34"
+        android:endColor="#ffce3f34"
+        android:type="linear"
+        />
+    <padding
+        android:left="0dp"
+        android:top="0dp"
+        android:right="0dp"
+        android:bottom="0dp"
+        />
+    <item android:state_pressed="true" android:drawable="@color/pressed"/>
+    <item android:state_focused="true" android:drawable="@color/focused"/>
+    <item android:drawable="@color/wew"/>
+</shape>
+
+
